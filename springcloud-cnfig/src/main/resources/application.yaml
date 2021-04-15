@@ -1,0 +1,11 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: springcloud-cnfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/cosmoswei/springcloud-config.git
